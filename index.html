@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <link rel="stylesheet" href="/Style/style.css" id="css">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="col">
+            <h1 id='day'></h1>
+
+            <button class="waves-effect waves-light btn cyan accent-4 center-btn" onclick="access(0)">Acessar Plano de Estudos</button>
+        </div>
+    </div>
+
+    <!--<div class="footer right">
+        <button class="waves-effect waves-light btn cyan accent-4" onclick="dark()">Dark Mode</button>
+    </div>-->
+
+    <script src="/JS/study.js"></script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', day(1))
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+</html>
